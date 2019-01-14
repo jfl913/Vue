@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Instance</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{foo}}</p>
+        <button v-on:click="foo = 'baz'">Change it</button>
+    </div>
+
+    <div id="example">
+        <p>{{message}}</p>
+    </div>
+
+    <div id="lifeCycle">
+        <p>{{message}}</p>
+    </div>
+
+    <script src="vueInstance.js"></script>
+</body>
+</html>
