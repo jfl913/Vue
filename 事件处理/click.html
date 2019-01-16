@@ -9,7 +9,17 @@
 </head>
 <body>
     <div id="example-1">
-        <button v-on:click>Add 1</button>
+        <button v-on:click="counter += 1">Add 1</button>
+        <p>The button above has been clicked {{ counter }} times.</p>
+    </div>
+
+    <div id="example-2">
+        <button v-on:click="greet">Greet</button>
+    </div>
+
+    <div id="example-3">
+        <button v-on:click="say('hi')">Say hi</button>
+        <button v-on:click="say('what')">Say what</button>
     </div>
 
     <script src="click.js"></script>
