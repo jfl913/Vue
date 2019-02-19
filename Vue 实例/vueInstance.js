@@ -17,13 +17,13 @@ var exampleVue = new Vue({
     data: exampleData
 })
 
-if (exampleVue.$data == exampleData) {
+if (exampleVue.$data === exampleData) {
     console.log("exampleVue.$data == exampleData")
 } else {
     console.log("exampleVue.$data != exampleData")
 }
 
-if (exampleVue.$el == document.getElementById('example')) {
+if (exampleVue.$el === document.getElementById('example')) {
     console.log("exampleVue.$el == document.getElementById('example')")
 } else {
     console.log("exampleVue.$el != document.getElementById('example')")
