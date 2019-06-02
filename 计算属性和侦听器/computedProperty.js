@@ -11,6 +11,9 @@ var vm = new Vue({
     methods: {
         reversedMessageMethod: function () {
             return this.message.split('').reverse().join('')
+        },
+        changeMessage() {
+            this.message = 'jfl';
         }
     }
 })
